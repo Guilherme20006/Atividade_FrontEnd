@@ -1,0 +1,78 @@
+.box {
+    display: flex;
+}
+
+
+.titulo {
+    font-size: 75px;
+    text-align: center;
+}
+
+.menu {
+    width: 11em;
+    border: 3px solid;
+}
+
+.menu li {
+    border: 2px solid;
+    list-style: none;
+    font-size: 20px;
+    margin-left: -23%;
+    padding-left: 25px;
+    padding: 10px;
+}
+
+
+.menu :hover {
+    background-color: rgb(192, 191, 191);
+}
+
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li :active {
+    color: rgb(255, 255, 255);
+}
+
+.linha_horizontal {
+    display: flex;
+    width: 25px;
+    height: 12cm; 
+    background-color: #000;
+    margin: -20px 20px -30px 50px;
+}
+
+
+hr {
+    border: solid black;
+    margin: 30px -20px 20px;
+}
+
+.conteudo {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.imagem_conteudo {
+    display: block;
+    margin-left: 26rem;
+    margin-right: auto;
+}
+
+.info {
+    font: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: azure;
+}
+
+body ::selection {
+    background-color: orange;
+}
