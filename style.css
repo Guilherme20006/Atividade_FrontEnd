@@ -24,7 +24,7 @@
 
 
 .menu :hover {
-   background-color: rgb(212, 185, 96);
+    background-color: rgb(212, 185, 96);
 }
 
 
@@ -39,8 +39,8 @@
 
 .linha_horizontal {
     display: flex;
-    width: 25px;
-    height: 12cm; 
+    width: 20px;
+    height: 13cm; 
     background-color: #000;
     margin: -20px 20px -30px 50px;
 }
@@ -54,6 +54,13 @@ hr {
 .conteudo {
     text-align: justify;
     font-size: 20px;
+}
+
+p {
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 .imagem_conteudo {
